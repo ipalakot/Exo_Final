@@ -12,7 +12,7 @@ export const Navbar = () => {
         <Link to="/About">About</Link>
       </li>
       <li>
-        <Link to="/Shop">Shop</Link>
+        <Link to="/Categories">Categories</Link>
       </li>
     </nav>
   );
