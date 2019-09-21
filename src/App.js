@@ -4,7 +4,7 @@ import './App.css';
 import { Navbar } from './components/Navbar';
 import { Home } from './components/Home';
 import About from './components/About';
-import Shop from './components/Shop';
+import Categories from './components/Categories';
 import { NotFound } from './components/NotFound';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/About/:category" component={About} />
-          <Route path="/Shop" component={Shop} />
+          <Route path="/Shop" component={Categories} />
           <Route component={NotFound} />
         </Switch>
       </div>

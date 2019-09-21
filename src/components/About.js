@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { keys } from '../Keys';
+import './About.css';
 
 class About extends Component {
   state = {
@@ -30,8 +31,8 @@ class About extends Component {
         {data ? (
           data.map((article, index) => {
             return (
-              <div key={index}>
-                <h4>{article.title}</h4>
+              <div className="article" key={index}>
+                <h4 className="heading">{article.title}</h4>
                 <p>
                   <span>author:</span> {article.author}{' '}
                   <span>published at: </span>

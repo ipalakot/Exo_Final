@@ -1,0 +1,15 @@
+div img {
+  width: 95%;
+  margin: 5px auto;
+  display: block;
+}
+
+div .heading {
+  color: #202020;
+  font-size: 24px;
+}
+
+div .article {
+  border-bottom: 1px solid #aaa;
+}
+/*# sourceMappingURL=About.css.map */

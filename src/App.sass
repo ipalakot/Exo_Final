@@ -1,0 +1,14 @@
+$main-color: aqua
+
+@mixin box-shadow($x, $y, $blur, $c)
+  -webkit-box-shadow: $x, $y, $blur, $c
+  -moz-box-shadow: $x, $y, $blur, $c
+  -ms-box-shadow: $x, $y, $blur, $c
+  -o-box-shadow: $x, $y, $blur, $c
+  box-shadow: $x, $y, $blur, $c
+
+body
+  padding: 20px
+
+.article
+  @include box-shadow(0, 4, 8, rgba(0, 0, 0, 0.2))

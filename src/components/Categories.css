@@ -1,0 +1,23 @@
+.articles-categories {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.articles-categories h2 {
+  color: #242424;
+}
+
+.articles-categories a {
+  text-decoration: none;
+  color: blue;
+  text-transform: capitalize;
+}
+
+.articles-categories a li {
+  list-style-type: none;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #eee;
+  width: 50%;
+}
+/*# sourceMappingURL=Categories.css.map */

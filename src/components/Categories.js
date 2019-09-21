@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Categories.css';
 
 const Shop = () => {
   const categories = [
@@ -12,8 +13,8 @@ const Shop = () => {
     'technology'
   ];
   return (
-    <div>
-      <h2>Articles Categories</h2>
+    <div className="articles-categories">
+      <h2 className="heading">Articles Categories</h2>
       {categories.map((category, index) => {
         return (
           <Link key={index} to={`/About/${category}`}>
